@@ -26,11 +26,18 @@ Reviewing and setting up memory systems for Yhanic Braithwaite
 - Using agent-browser for web automation (VM-friendly)
 
 ## Important Dates
+- **Feb 12: Meeting with Raj Shah at Shield Capital** ⚡
 - Feb 14: Valentine's Day (Alexa)
 - Mar 8: International Women's Day (Eastern European - important!)
 - Sep 8: Anniversary (met Alexa)
 - Sep 27: Alexa's birthday
 - Oct 19: Yhanic's birthday
+
+## Active Meeting Prep
+- **Raj Shah / Shield Capital** - Daily intel cron active until Feb 12
+  - Portfolio company research
+  - Value-add angle identification
+  - See: meeting-prep/shield-capital-raj-shah.md
 
 ---
 *Last updated: 2026-02-05*

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "sonoscli": {
+      "version": "1.0.0",
+      "installedAt": 1770257779196
+    },
+    "clawdex": {
+      "version": "1.0.2",
+      "installedAt": 1770257997925
+    },
+    "proactive-agent": {
+      "version": "3.0.0",
+      "installedAt": 1770258165288
+    },
+    "browser-use": {
+      "version": "1.0.0",
+      "installedAt": 1770258672340
+    },
+    "peekaboo": {
+      "version": "1.0.0",
+      "installedAt": 1770266904657
+    },
+    "prompt-engineering-expert": {
+      "version": "1.0.0",
+      "installedAt": 1770320853439
+    },
+    "self-improving-agent-1-0-2": {
+      "version": "1.0.0",
+      "installedAt": 1770321760768
+    },
+    "capability-evolver": {
+      "version": "1.2.0",
+      "installedAt": 1770321940700
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1770322392777
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1770322551301
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.2",
+      "installedAt": 1770323032288
+    },
+    "hippocampus-memory": {
+      "version": "3.8.5",
+      "installedAt": 1770323034408
+    },
+    "sag": {
+      "version": "1.0.0",
+      "installedAt": 1770324511851
+    }
+  }
+}

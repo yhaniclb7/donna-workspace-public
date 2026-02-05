@@ -3,4 +3,6 @@ node_modules
 .next
 .DS_Store
 *.log
-.git
+memory/signals.jsonl
+memory/pending-memories.json
+.env
