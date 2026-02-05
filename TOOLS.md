@@ -40,6 +40,12 @@ Things like:
   
 - **Default speaker:** Kitchen HomePod
 
+### SAG (ElevenLabs TTS)
+- **Status:** ✅ Configured
+- **API Key:** Set via ELEVENLABS_API_KEY
+- **Default Voice:** Sophie Langford (khYwAWwYSjlxlcrwGQ16)
+- **Usage:** `sag "Hello there"` or `sag -v "Lily" "Hello"
+
 ### Coding Assistants
 
 - **Claude Code:** Installed but disabled (no Max subscription)
