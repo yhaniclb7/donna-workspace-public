@@ -1,0 +1,34 @@
+{
+  "crunchbase": {
+    "enabled": false,
+    "apiKey": "",
+    "baseUrl": "https://api.crunchbase.com/v4"
+  },
+  "pitchbook": {
+    "enabled": false,
+    "apiKey": "",
+    "baseUrl": "https://api.pitchbook.com/v1"
+  },
+  "openai": {
+    "enabled": false,
+    "apiKey": "",
+    "model": "gpt-4",
+    "baseUrl": "https://api.openai.com/v1"
+  },
+  "newsApi": {
+    "enabled": false,
+    "apiKey": "",
+    "baseUrl": "https://newsapi.org/v2"
+  },
+  "hubspot": {
+    "enabled": false,
+    "apiKey": "",
+    "baseUrl": "https://api.hubapi.com"
+  },
+  "salesforce": {
+    "enabled": false,
+    "clientId": "",
+    "clientSecret": "",
+    "baseUrl": ""
+  }
+}

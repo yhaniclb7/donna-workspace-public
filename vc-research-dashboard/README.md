@@ -15,6 +15,20 @@ Defense tech and American Dynamism venture capital research and deal flow tracki
 - Click cards for detailed deal information
 - Tracks: valuation, round, lead source, next actions
 
+### 🤖 AI Investment Memo Generator
+- **NEW**: One-click AI-powered investment memo generation
+- Automatic market analysis, team assessment, and investment thesis
+- Risk factor identification and recommendation scoring
+- Professional VC-grade memo formatting
+- Powered by OpenAI GPT-4 (when API key configured)
+
+### 🔗 API Integrations
+- **NEW**: Crunchbase data enrichment - funding rounds, investors, competitors
+- **NEW**: News API integration - real-time company news with sentiment analysis
+- **NEW**: PitchBook integration ready for private market data
+- Configure via Settings → API Integrations panel
+- Mock data provided for demo when APIs not configured
+
 ### 🏢 VC Firm Tracker
 - Relationship strength scoring (1-10)
 - Status tracking: Target → Active → Intro Pending → Meeting Scheduled → Term Sheet → Closed
@@ -60,6 +74,37 @@ npm run dev
 # Open http://localhost:3001
 ```
 
+## API Configuration
+
+To enable AI memo generation and external data enrichment:
+
+1. Click **API Integrations** in the left sidebar
+2. Toggle on the services you want to enable
+3. Enter your API keys:
+   - **OpenAI**: Required for AI memo generation (`sk-...`)
+   - **Crunchbase**: For company funding data
+   - **News API**: For real-time news alerts (`newsapi.org`)
+   - **PitchBook**: For private market valuations
+
+4. Click **Save Settings**
+
+API keys are stored locally in your browser. The dashboard works without APIs using enriched mock data.
+
+## Using the Investment Memo Generator
+
+1. Click any deal card in the pipeline
+2. Go to the **Investment Memo** tab
+3. Click **Generate Memo** (or configure OpenAI first for AI-powered memos)
+4. Review the generated memo with sections for:
+   - Executive Summary
+   - Market Opportunity (TAM/SAM/SOM)
+   - Team Assessment
+   - Product/Technology Analysis
+   - Traction & Metrics
+   - Competitive Landscape
+   - Risk Factors
+   - Investment Thesis & Recommendation
+
 ## Pre-loaded Data
 
 ### VC Firms
@@ -82,25 +127,25 @@ npm run dev
 
 ## Next Steps / Roadmap
 
-1. **API Integration**
-   - Connect to CRM (HubSpot/Salesforce)
-   - Calendar integration for automatic meeting sync
-   - Crunchbase/PitchBook data enrichment
+### ✅ Completed
+- [x] Crunchbase/PitchBook data enrichment infrastructure
+- [x] AI-powered investment memo generation
+- [x] News API integration with sentiment analysis
+- [x] API settings management panel
 
-2. **Deal Intelligence**
-   - Automated news alerts for portfolio companies
-   - Funding round notifications
-   - Competitive landscape tracking
+### In Progress
+- [ ] Connect to CRM (HubSpot/Salesforce)
+- [ ] Calendar integration for automatic meeting sync
+- [ ] Automated news alerts for portfolio companies
+- [ ] Funding round notifications
 
-3. **Collaboration**
-   - Multi-user support for deal team
-   - Comment threads on deals
-   - Shared meeting notes
-
-4. **Analytics**
-   - Conversion funnel metrics
-   - Time-in-stage tracking
-   - Source attribution analysis
+### Planned
+- [ ] Multi-user support for deal team
+- [ ] Comment threads on deals
+- [ ] Shared meeting notes
+- [ ] Conversion funnel metrics
+- [ ] Time-in-stage tracking
+- [ ] Source attribution analysis
 
 ## Customization
 

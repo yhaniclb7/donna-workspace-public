@@ -7,6 +7,7 @@ import DealPipeline from '@/components/DealPipeline'
 import VCFirmTracker from '@/components/VCFirmTracker'
 import AmericanDynamismTracker from '@/components/AmericanDynamismTracker'
 import MeetingPrepPanel from '@/components/MeetingPrepPanel'
+import DealDetailModal from '@/components/DealDetailModal'
 import { 
   mockDeals, 
   mockVCFirms, 
@@ -201,70 +202,12 @@ export default function Dashboard() {
         </div>
       </main>
 
-      {/* Deal Detail Modal */}
-      {selectedDeal && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
-          onClick={() => setSelectedDeal(null)}
-        >
-          <div 
-            className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="p-6 border-b border-slate-800">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h2 className="text-2xl font-bold text-white">{selectedDeal.companyName}</h2>
-                  <p className="text-slate-400 mt-1">{selectedDeal.description}</p>
-                </div>
-                <button 
-                  onClick={() => setSelectedDeal(null)}
-                  className="text-slate-400 hover:text-white"
-                >
-                  ✕
-                </button>
-              </div>
-            </div>
-            <div className="p-6 space-y-6">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-slate-800 rounded-lg p-4">
-                  <p className="text-slate-400 text-sm">Stage</p>
-                  <p className="text-white font-medium capitalize">{selectedDeal.stage.replace('-', ' ')}</p>
-                </div>
-                <div className="bg-slate-800 rounded-lg p-4">
-                  <p className="text-slate-400 text-sm">Priority</p>
-                  <p className="text-white font-medium capitalize">{selectedDeal.priority}</p>
-                </div>
-                <div className="bg-slate-800 rounded-lg p-4">
-                  <p className="text-slate-400 text-sm">Valuation</p>
-                  <p className="text-white font-medium">{selectedDeal.valuation || 'N/A'}</p>
-                </div>
-                <div className="bg-slate-800 rounded-lg p-4">
-                  <p className="text-slate-400 text-sm">Round</p>
-                  <p className="text-white font-medium">{selectedDeal.round || 'N/A'}</p>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="font-medium text-white mb-2">Lead Source</h3>
-                <p className="text-slate-400">{selectedDeal.leadSource}</p>
-              </div>
-
-              <div>
-                <h3 className="font-medium text-white mb-2">Notes</h3>
-                <p className="text-slate-400">{selectedDeal.notes}</p>
-              </div>
-
-              {selectedDeal.nextAction && (
-                <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-4">
-                  <h3 className="font-medium text-amber-400 mb-1">Next Action</h3>
-                  <p className="text-slate-300">{selectedDeal.nextAction}</p>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Deal Detail Modal with Memo Generation */}
+      <DealDetailModal
+        deal={selectedDeal!}
+        isOpen={!!selectedDeal}
+        onClose={() => setSelectedDeal(null)}
+      />
 
       {/* Firm Detail Modal */}
       {selectedFirm && (
