@@ -46,6 +46,13 @@ Things like:
 - **Default Voice:** Sophie Langford (khYwAWwYSjlxlcrwGQ16)
 - **Usage:** `sag "Hello there"` or `sag -v "Lily" "Hello"
 
+### Donna's Identity
+
+- **Full Name:** Donna Bennett
+- **Email:** donna.bennett.ea@gmail.com
+- **Role:** Executive Assistant to Yhanic Braithwaite
+- **Style:** British-inflected, warm but commanding
+
 ### Coding Assistants
 
 - **Claude Code:** Installed but disabled (no Max subscription)
