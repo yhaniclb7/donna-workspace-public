@@ -1,0 +1,20 @@
+{
+  "name": "donna-voice",
+  "version": "1.0.0",
+  "description": "Auto-humanize AI outputs through Donna's voice filter - quick-witted, warm yet commanding, British-inflected executive assistant persona",
+  "main": "src/voice.js",
+  "keywords": [
+    "openclaw",
+    "voice",
+    "humanize",
+    "donna",
+    "persona",
+    "writing"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "scripts": {
+    "test": "node src/voice.js --test"
+  },
+  "dependencies": {}
+}

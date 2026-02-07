@@ -52,6 +52,58 @@
     "sag": {
       "version": "1.0.0",
       "installedAt": 1770324511851
+    },
+    "phone-voice": {
+      "version": "2.0.0",
+      "installedAt": 1770349147448
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770419212656
+    },
+    "prompt-guard": {
+      "version": "2.6.1",
+      "installedAt": 1770419411658
+    },
+    "ui-ux-pro-max": {
+      "version": "0.1.0",
+      "installedAt": 1770419634316
+    },
+    "calendly-api": {
+      "version": "1.0.1",
+      "installedAt": 1770419906368
+    },
+    "linkedin": {
+      "version": "1.0.0",
+      "installedAt": 1770420668701
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1770428499284
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770428500480
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1770428501844
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1770428503288
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1770443536301
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1770444362428
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1770444894483
     }
   }
 }
